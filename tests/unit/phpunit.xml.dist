@@ -1,0 +1,18 @@
+<phpunit
+    bootstrap="./../../vendor/autoload.php"
+    colors="true"
+    stopOnError="true"
+    stopOnFailure="true"
+    stopOnIncomplete="false"
+    stopOnSkipped="false"
+    beStrictAboutTestsThatDoNotTestAnything="false"
+>
+    <php>
+        <const name="UNIT_TESTS_IN_PROGRESS" value=""/>
+    </php>
+    <testsuites>
+        <testsuite name="current-version">
+            <directory>.</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

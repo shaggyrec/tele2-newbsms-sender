@@ -1,0 +1,22 @@
+{
+    "name": "shaggyrec/tele2-newbsms-sender",
+    "description": "Php tele2 newbsms sms sender",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alex Shogenov",
+            "email": "i@shagg.ru",
+            "homepage": "https://shogenov.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "mockery/mockery": "^1.2"
+    }
+}
