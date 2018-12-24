@@ -1,5 +1,7 @@
 # Simple php tele2 newbsms sms sender
 
+Sends sms from tele2 newbsms.tele2.ru
+
 ## Usage:
     (new Tele2SmsSender('login', 'password', 'sender'))
         ->message('79999999999', 'text');
