@@ -26,6 +26,12 @@ class Tele2SmsSender
         $this->login = $login;
     }
 
+    /**
+     * @param string $receiver
+     * @param string $text
+     * @return string
+     * @throws \Tele2SmsSender\Exceptions\NotSent
+     */
     public function message(string  $receiver, string $text): string
     {
         return $this->requestToTele2(
@@ -40,7 +46,12 @@ class Tele2SmsSender
         );
     }
 
-    private function requestToTele2(array $query)
+    /**
+     * @param array $query
+     * @return string
+     * @throws \Tele2SmsSender\Exceptions\NotSent
+     */
+    private function requestToTele2(array $query): string
     {
         $response = file_get_contents(
             self::API_URL . http_build_query($query),
