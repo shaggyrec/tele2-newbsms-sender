@@ -4,7 +4,7 @@ use Mockery as m;
 
 class Tele2SmsSenderTest extends \PHPUnit\Framework\TestCase
 {
-    public function testCanCreateInstanceOfByteHandSmsSenderTest(): void
+    public function testCanCreateInstanceOfTele2SmsSenderTest(): void
     {
         $this->assertInstanceOf(
             'Tele2SmsSender',
