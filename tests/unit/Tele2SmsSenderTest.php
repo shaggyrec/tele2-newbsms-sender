@@ -1,7 +1,5 @@
 <?php
 
-use Mockery as m;
-
 class Tele2SmsSenderTest extends \PHPUnit\Framework\TestCase
 {
     public function testCanCreateInstanceOfTele2SmsSenderTest(): void
