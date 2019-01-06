@@ -1,7 +1,7 @@
 {
     "name": "shaggyrec/tele2-newbsms-sender",
     "description": "Php tele2 newbsms sms sender",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "type": "library",
     "authors": [
         {
